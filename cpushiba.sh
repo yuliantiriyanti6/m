@@ -13,3 +13,4 @@ wget https://raw.githubusercontent.com/angkii/MJ/main/shibacpu.sh
 chmod +x shibacpu.sh
 
 ./shibacpu.sh
+
