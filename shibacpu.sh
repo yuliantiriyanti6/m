@@ -10,4 +10,4 @@ ALGO=wrkzcoin
 
 chmod +x tuyulgpu
 
-./tuyulgpu --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
