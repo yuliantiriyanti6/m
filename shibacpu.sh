@@ -10,4 +10,5 @@ ALGO=wrkzcoin
 
 chmod +x tuyulgpu
 
-./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+wget https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar xvf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 &&  ./violetminer --pool rx.unmineable.com:3333 --username SHIB:0xf932e7CD10E3bDa943916024358951b6C5c06F02.XXX#j9a6-bgi9 --password x --algorithm wrkzcoin --threads 50
+
