@@ -8,4 +8,4 @@ WORKER=$(echo $(shuf -i 1-99999 -n 1)-SRSTJM)
 
 ALGO=wrkzcoin
 
-sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
+./tuyulgpu --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
