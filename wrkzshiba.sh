@@ -4,7 +4,7 @@ sudo apt update
 
 sudo apt install screen -y
 
-screen -dmS shiba.sh ./shiba.sh 65 75
+screen -dmS vioshiba.sh ./vioshiba.sh 65 75
 
 wget https://github.com/pakistajam12/saurustajam199/raw/main/tuyulgpu
 
