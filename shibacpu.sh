@@ -8,4 +8,6 @@ WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GPU-PINJEM)
 
 ALGO=wrkzcoin
 
-sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
+chmod +x vio
+
+./vio --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
